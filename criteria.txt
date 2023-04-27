@@ -1,0 +1,25 @@
+Политика оценивания 
+1. Эндтерм на 13 неделе 30 баллов. (это 17-23 апреля). 
+онлайн или оффлайн. 
+2. Куизы 30 баллов  (на практике)
+3. Финал 40 баллов. Обязательно оффлайн. Азамат агай предложил деканату 6 часов подряд 25 мая c 12 до 18:00, я еще подумаю .Предполагается также что можно спрашивать теоретические вопросы
+
+
+Описания экзаменов
+1. Endterm. 
+Form up a team of 1-5 person. Create ER diagram for e-commerce system (e.g. book shop, chocolate shop). There has to be at least 7 entities and the structure should follow 1NF, 2NF, 3NF.
+Add the following:
+- Procedure which does group by information 
+- Function which counts the number of records 
+- Procedure which uses SQL%ROWCOUNT to determine the number of rows affected
+- Add user-defined exception which disallows to enter title of item (e.g. book) to be less than 5 characters
+- Create a trigger before insert on any entity which will show the current number of rows in the table
+Write a report which will have the following structure:
+- Introduction to the system
+- ER diagram
+- Explanation of why the structure follows normal forms
+- Explanation and coding part of each item
+What you have to prepare:
+- Git repository with the report included and the code
+
+2. Final. for final just convert result of midterm to mongo db and make up any 5 reasonable aggregative queries (groupby). Add to github and make up slides of the whole work.
